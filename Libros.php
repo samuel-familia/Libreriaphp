@@ -1,8 +1,8 @@
 <?php    
-    include 'php/LibrosRepositorio.php';
+    include 'php/librosrepositorio.php';
 ?>
 
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -50,20 +50,20 @@
   <body class="text-center">
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="http://localhost/FinalProyect/Index.php">Inicio</a>
+      <a class="navbar-brand" href="index.php">Inicio</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="http://localhost/FinalProyect/Libros.php">Biblioteca <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="libros.php">Biblioteca <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="http://localhost/FinalProyect/Autores.php">Autores</a>
+            <a class="nav-link" href="autores.php">Autores</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="http://localhost/FinalProyect/Contacto.php">Contactos</a>
+            <a class="nav-link" href="contacto.php">Contactos</a>
           </li>
         </ul>
       </div>
@@ -81,7 +81,7 @@
   $fila = $result->fetch_object();
   ?>
 
-  <li class="list-group-item list-group-item-secondary"> <a href="http://localhost/FinalProyect/VistaLIbro.php?id=<?=$fila->id_titulo?>"><?php echo $fila->latino ?></a></li>
+  <li class="list-group-item list-group-item-secondary"> <a href="vistalibro.php?id=<?=$fila->id_titulo?>"><?php echo $fila->latino ?></a></li>
   <?php
   }
 ?>    
@@ -91,7 +91,7 @@
   <br>
 
   
-  <a href="http://localhost/FinalProyect/Index.php" class="btn btn-warning btn-lg">Volver</a>
+  <a href="index.php" class="btn btn-warning btn-lg">Volver</a>
 
   <br>
   <br>

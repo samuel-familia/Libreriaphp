@@ -57,9 +57,9 @@
         <div class="col-sm-4 offset-md-1 py-4">
           <h4 class="text-white">Menu</h4>
           <ul class="list-unstyled">
-            <li><a href="http://localhost/FinalProyect/Index.php" class="text-white">Inicio</a></li>
-            <li><a href="http://localhost/FinalProyect/Libros.php" class="text-white">Biblioteca</a></li>
-            <li><a href="http://localhost/FinalProyect/Autores.php" class="text-white">Autores</a></li>
+            <li><a href="index.php" class="text-white">Inicio</a></li>
+            <li><a href="libros.php" class="text-white">Biblioteca</a></li>
+            <li><a href="autores.php" class="text-white">Autores</a></li>
           </ul>
         </div>
       </div>
@@ -103,7 +103,7 @@
   <div class="card-body">
     <h5 class="card-title">Biblioteca</h5>
     <p class="card-text">Tenemos una gran variedad de libros, deberias leerlos.</p>
-    <a href="http://localhost/FinalProyect/Libros.php" class="btn btn-primary">Ver libros</a>
+    <a href="libros.php" class="btn btn-primary">Ver libros</a>
   </div>
 </div> 
     </div>
@@ -113,7 +113,7 @@
   <div class="card-body">
     <h5 class="card-title">Autores</h5>
     <p class="card-text">Los libros no se escriben solos, conoce sus autores.</p>
-    <a href="http://localhost/FinalProyect/Autores.php" class="btn btn-primary">Ver autores</a>
+    <a href="autores.php" class="btn btn-primary">Ver autores</a>
   </div>
 </div>
     </div>
@@ -123,7 +123,7 @@
   <div class="card-body">
     <h5 class="card-title">Contactos</h5>
     <p class="card-text">Aqui te dejamos una lista de contactos, registrate</p>
-    <a href="http://localhost/FinalProyect/Contacto.php" class="btn btn-primary">Registro</a>
+    <a href="contactos.php" class="btn btn-primary">Registro</a>
   </div>
 </div>
     </div>
